@@ -12,28 +12,24 @@
     font-weight: normal;
 }
 
-#body{
+#body {
     background-color: floralwhite;
 }
 
-#rd{
+#rd {
     padding-left: 2%;
     display: flex;
     justify-content: start;
 }
 
-#buttonHref{
+#buttonHref {
     text-decoration: none;
     color: aliceblue;
 }
 
 #border {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 1px solid black;
-    flex-basis: content;
+    display: inline-block;
+    padding: 1% 2% 2% 2%;
 }
 
 #MainText {
@@ -41,7 +37,6 @@
 }
 
 * {
-
     font-family: 'Ôetter';
 }
 
@@ -134,8 +129,20 @@ p {
     }
 }
 
+@keyframes beat {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(0.6) rotate(0deg);
+    }
+}
 
 
 #Img {
     padding: 3% 0% 0% 0%;
+
+    animation: beat 1.5s infinite;
 }
+
