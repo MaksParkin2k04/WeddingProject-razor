@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Better";
+    src: url("C:/Users/carro/Desktop/projectWen/Font/Better Land RUS/Better Land RUS.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Ôetter";
+    src: url("../font/Sweet Mavka Script.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#body{
+    background-color: floralwhite;
+}
+
+#rd{
+    padding-left: 2%;
+    display: flex;
+    justify-content: start;
+}
+
+#buttonHref{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#border {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid black;
+    flex-basis: content;
+}
+
+#MainText {
+    font-family: 'Better';
+}
+
+* {
+
+    font-family: 'Ôetter';
+}
+
+h1 {
+    font-size: 38px;
+    font-style: oblique;
+}
+
+p {
+    font-size: 28px;
+}
+
+
+#FirstInfoBlock {
+    padding: 2% 0% 5% 0%;
+}
+
+
+#SecondInfoBlock {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 1% 0% 1% 0%;
+    filter: brightness(90%);
+}
+
+#TimeBlock {
+    margin: 4% 0% 0% 0%;
+}
+
+#MapBlock {
+    margin: 4% 0% 0% 0%;
+}
+
+#DressBlock {
+    margin: 4% 0% 4% 0%;
+}
+
+#Anket {
+    margin: 4% 0% 0% 0%;
+}
+
+#Contact {
+    margin: 4% 0% 0% 0%;
+}
+
+#FotoWedding {
+    margin: 4% 0% 0% 0%;
+}
+
+#FinishBlock {
+    margin: 7% 0% 0% 0%;
+}
+
+#TextName {
+    margin: 2% 0% 0% 0%;
+}
+
+#TextPr {
+    font-size: 30px;
+    margin: 5% 0% 0% 0%;
+}
+
+#FotoMain {
+    margin: 0% 0% 0% 0%;
+}
+
+#sm-text {
+    font-size: 22px;
+}
+
+#button {
+    background-color: #0F2C58;
+}
+
+#FotoMain {
+    transform: translateY(150%);
+    animation: ani 1s forwards;
+    background-position: 400% 0%;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateY(150%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+#Img {
+    padding: 3% 0% 0% 0%;
+}
